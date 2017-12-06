@@ -1,0 +1,13 @@
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using System;
+using System.Collections.Generic;
+
+namespace MvcMovie.Models
+{
+    public class MovieGenreViewModel
+    {
+        public List<Movie> movies;
+        public SelectList genres;
+        public String movieGenre { get; set; }
+    }
+}
